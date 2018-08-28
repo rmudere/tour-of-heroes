@@ -17,6 +17,7 @@ const appRoutes:Routes = [
   imports: [
     BrowserModule
   ],
+  exports:[RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
