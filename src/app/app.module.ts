@@ -15,7 +15,7 @@ const appRoutes:Routes = [
     HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,RouterModule.forRoot(appRoutes)
   ],
   exports:[RouterModule],
   providers: [],
